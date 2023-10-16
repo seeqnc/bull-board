@@ -58,6 +58,7 @@ export const JobActions = ({ actions, status, allowRetries }: JobActionsProps) =
           </Tooltip>
         </li>
       ))}
+
     </ul>
   );
 };
