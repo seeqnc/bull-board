@@ -67,7 +67,7 @@ export const DetailsContent = ({selectedTab, job, actions}: DetailsContentProps)
 										<br/>
 										<ul>
 											{job.data.segments[offset]['screenDumps']?.map((url: string) => (
-												<a key={url} href={url} target="_blank"><img src={url} alt={url}
+												<a key={url} href={url} target="_blank" rel="noreferrer"><img src={url} alt={url}
 																							 width="200px"/></a>
 											))}
 										</ul>
